@@ -36,12 +36,13 @@ pip install -r requirements.txt
 
 
 ### VAE and SVDD training
+Here is the example to train the VAE and SVDD based detectors. (The traininig data set will be added later)
 
 ```
-python ./train_vae_svdd.py
+python ./train_vae_svdd.py -p ./data/train
 ```
 
-### Offline Out-of-distribution detection
+### Offline out-of-distribution detection
 
 We provide one episode of in-distribution data and one episode of out-of-distribution data to test our method. 
 
